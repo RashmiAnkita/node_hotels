@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 //Define the MongoDb URL 
-// const mongoUrl= 'mongodb://127.0.0.1:27017/hotels';   //LOcal MongoDb uRL
-const mongoUrl = 'mongodb+srv://Ankita:Mongodb@cluster0.zycxy.mongodb.net/';            //Server MongoDb URL
+const mongoUrl= 'mongodb://127.0.0.1:27017/hotels';   //LOcal MongoDb uRL
+
 //MongoDB connection
 mongoose.connect(mongoUrl)
     .then(() => {
